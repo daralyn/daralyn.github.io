@@ -1,12 +1,21 @@
 # Welcome to Daralyn's E-Portfolio Homepage
 
 ## Portfolio
-- Engineering
+- Engineering              
 - Cards
 - Holiday Crafts
 - Chinese
 - Other
 
+[About Me](https://github.com/daralyn/daralyn.github.io/projects/1#column-2869335)
+
+| Portfolio     | About Me     |
+| ------------- |-------------:|
+| Engineering      | |
+| Cards      |      |
+| Chinese  |      |
+| Holiday Crafts |
+| other|
 
 [Link](url) and ![Image](src)
 
