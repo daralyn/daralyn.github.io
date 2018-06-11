@@ -1,4 +1,4 @@
-# Welcome to Daralyn's E-Portfolio Home Page
+# Welcome to Daralyn's E-Portfolio Homepage
 
 ## Portfolio
 - Engineering
@@ -6,15 +6,6 @@
 - Holiday Crafts
 - Chinese
 - Other
-
-
-
-
-
-
-
-
-
 
 
 [Link](url) and ![Image](src)
