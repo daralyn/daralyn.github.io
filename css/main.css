@@ -1,6 +1,5 @@
 #bodydefault {
     width: 80%;
-    background-color: rgb(264, 221, 225);
 }
 
 #divnavdefault {
@@ -34,6 +33,11 @@ a:hover {
 h1 {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
 }
+
+#contentdefault{
+    background-color: rgb(0, 221, 225)
+}
+
 p {
     font-family: 'Arial', 'Sans-Serif';
 ;
@@ -44,4 +48,13 @@ p {
     font-family: 'Arial', 'Sans-Serif';
     background-color: rgb(0, 20, 15);
 }
+#getintouch{
+    color: (225, 225, 225);
+    font-family: 'Arial', 'Sans-Serif';
+}
 
+<!--page specific-->
+
+.readandcheck{
+    color: rgb(0, 0, 0);
+}
