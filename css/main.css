@@ -1,32 +1,33 @@
 #bodydefault {
-    margin: 60px;
-    width: 70%;
+    margin-left: auto;
+    width: 80%;
     background-color: rgb(164, 211, 255);
+    border-left: 4px double rgb(0, 0, 0);
 }
 
 #navdefault {
-    border bottom: 3px solid rgb(161, 161, 161);
+    border-bottom: 3px solid rgb(161, 161, 161);
 }
 
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: rgb(0, 0, 0;
+    font-family: 'Arial';
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 1em;
-    font-family: 'Comic Sans MS', 'Arial', 'Sans-Serif';
+    font-family: 'AR BERKLEY', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.2em;
-    line-height: 1em;
+    font-size: 0.8em;
 ;
 }
-footer {
+#footerdefault {
     border-top: 2px solid rgb(0, 0, 0);
-    font-size: .8em;
+    font-size: .5em;
     background-color: rgb(0, 20, 15);
 }
