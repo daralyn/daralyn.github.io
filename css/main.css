@@ -1,15 +1,23 @@
 #bodydefault {
-    margin-left: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 80%;
     background-color: rgb(164, 211, 255);
-    border-left: 4px double rgb(0, 0, 0);
 }
 
-#navdefault {
+#divnavdefault {
     border-bottom: 3px solid rgb(161, 161, 161);
+    background-color: rgb(0, 0, 0);
 }
 
+#navlistdefault {
+    font-color: rgb(225, 225, 225);
 }
+
+#eportfolioheader {
+    font-family: 'AR BERKLEY', 'Arial', 'Sans-Serif';
+}
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -26,8 +34,9 @@ p {
     font-size: 0.8em;
 ;
 }
-#footerdefault {
+#divfootdefault {
     border-top: 2px solid rgb(0, 0, 0);
     font-size: .5em;
     background-color: rgb(0, 20, 15);
 }
+
