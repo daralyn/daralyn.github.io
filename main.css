@@ -1,17 +1,13 @@
-body {
-    margin: 60px auto;
+#bodydefault {
+    margin: 60px;
     width: 70%;
     background-color: rgb(164, 211, 255);
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+#navdefault {
+    border: 1px solid rgb(161, 161, 161);
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
 }
 a {
     text-decoration: none;
@@ -32,13 +28,4 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
