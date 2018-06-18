@@ -1,3 +1,2 @@
-theme: jekyll-theme-slate
-title: Welcome to Daralyn's E-portfolio
-description: This is where I upload projects that I've been working on!
+	name: Daralyn Wen
+	markdown: kramdown
