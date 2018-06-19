@@ -29,9 +29,7 @@ a {
     border: 1px solid rgb(225, 225, 225);
     padding: 2px;
     margin: 3px;
-    position: absolute;
-    top: 20px;
-    left: 30px;
+
 }
 a:hover {
     text-decoration: underline;
