@@ -14,6 +14,7 @@
 
 #eportfolioheader {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
+    font-size: 2em;
     color: rgb(225, 225, 225);
 }
 
@@ -36,7 +37,8 @@ h1 {
 }
 
 #contentdefault{
-    background-color: rgb(181, 238, 255)
+    background-color: rgb(181, 238, 255);
+    margin: 10px;
 }
 
 p {
@@ -57,5 +59,6 @@ p {
 
 
 .readandcheck{
-    color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
 }
