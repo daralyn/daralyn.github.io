@@ -50,11 +50,14 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
-.divfootdefault {
+#defaultfooter{
     border-top: 2px solid rgb(0, 0, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#divfootdefault {
     font-size: .8em;
     font-family: 'Arial', 'Sans-Serif';
-    background-color: rgb(0, 0, 0);
     padding: 3px;
     color: (255, 255, 255);
 }
