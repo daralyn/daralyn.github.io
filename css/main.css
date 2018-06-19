@@ -26,21 +26,24 @@ a {
 }
 .navbutton{
     border: 1px solid rgb(225, 225, 225);
-    padding: 2px;
-    margin: 3px;
-
+    padding: 3px;
+    margin-left: 6px;
 }
+
 a:hover {
     text-decoration: underline;
 }
 
 h1 {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
+    font-height: 20px;
 }
 
 #contentdefault{
-    background-color: rgb(181, 238, 255);
-    padding: 50px;
+    background-color: rgb(225, 243, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30%;
 }
 
 p {
@@ -48,12 +51,12 @@ p {
 }
 
 #divfootdefault {
-    border-top: 2px solid rgb(0, 0, 0);
-    font-size: .5em;
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: .8em;
     font-family: 'Arial', 'Sans-Serif';
-    background-color: rgb(0, 20, 15);
+    background-color: rgb(0, 0, 0);
     padding: 3px;
-    color: (225, 225, 225);
+    color: (100, 100, 100);
 }
 
 
