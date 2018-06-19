@@ -14,8 +14,9 @@
 
 #eportfolioheader {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(225, 225, 225);
+    padding-top: 5px;
 }
 
 a {
