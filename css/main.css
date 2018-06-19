@@ -1,3 +1,9 @@
+#divfootdefault {
+    color: (255, 255, 255);
+    font-size: .8em;
+    font-family: 'Arial', 'Sans-Serif';
+}
+
 #bodydefault {
     width: 80%;
 }
@@ -56,12 +62,7 @@ p {
     padding: 3px;
 }
 
-#divfootdefault {
-    color: (255, 255, 255);
-    font-size: .8em;
-    font-family: 'Arial', 'Sans-Serif';
-
-}
+<!-- divfootdefault -->
 
 
 .readandcheck{
