@@ -50,7 +50,7 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
-#divfootdefault {
+.divfootdefault {
     border-top: 2px solid rgb(0, 0, 255);
     font-size: .8em;
     font-family: 'Arial', 'Sans-Serif';
