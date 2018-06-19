@@ -1,13 +1,11 @@
 #bodydefault {
     width: 80%;
-    clear: both;
 }
 
 #divnavdefault {
     border-bottom: 3px solid rgb(161, 161, 161);
     background-color: rgb(0, 0, 0);
     padding-left: 15px;
-
 }
 
 #navlistdefault {
@@ -42,7 +40,7 @@ h1 {
 
 #contentdefault{
     background-color: rgb(181, 238, 255);
-    margin: 50px;
+    padding: 50px;
 }
 
 p {
