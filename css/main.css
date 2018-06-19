@@ -1,5 +1,6 @@
 #bodydefault {
     width: 80%;
+    clear: both;
 }
 
 #divnavdefault {
@@ -41,7 +42,7 @@ h1 {
 
 #contentdefault{
     background-color: rgb(181, 238, 255);
-    margin: 10px;
+    margin: 50px;
 }
 
 p {
@@ -54,11 +55,7 @@ p {
     font-family: 'Arial', 'Sans-Serif';
     background-color: rgb(0, 20, 15);
     padding: 3px;
-}
-
-#getintouch{
     color: (225, 225, 225);
-    font-family: 'Arial', 'Sans-Serif';
 }
 
 
