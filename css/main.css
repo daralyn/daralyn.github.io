@@ -26,8 +26,8 @@ a {
 }
 .navbutton{
     border: 1px solid rgb(255, 255, 255);
-    padding: 3px;
-    margin-left: 6px;
+    padding: 5px;
+    margin-left: 8px;
 }
 
 a:hover {
@@ -36,14 +36,14 @@ a:hover {
 
 h1 {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-    font-height: 20px;
+    font-height: 30px;
 }
 
 #contentdefault{
     background-color: rgb(225, 243, 255);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 
 p {
@@ -53,7 +53,10 @@ p {
 #defaultfooter{
     border-top: 2px solid rgb(161, 161, 161);
     background-color: rgb(0, 0, 0);
-    padding: 3px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #divfootdefault{
