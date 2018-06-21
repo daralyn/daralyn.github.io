@@ -114,7 +114,8 @@ p {
 /*side bar*/
 #portfoliosidebar{
     background-color: rgb(255, 251, 214);
-    float: right;
-    width: 100px
-    
+	position: absolute;
+	right: 0px;
+	top: 90px;
+    width: 300px
 }
