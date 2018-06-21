@@ -16,7 +16,7 @@ header{
     padding-top: 0px;
     text-decoration: none;
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 15px;
 }
 
@@ -24,13 +24,13 @@ header{
     font-color: rgb(225, 225, 225);
     position: absolute;
     top: 30px; 
-    right: 40px;
+    right: 60px;
     margin: 10px;
 }
 
 a.navbutton{
     padding: 5px;
-    margin-left: 8px;
+    margin-left: 10px;
     color: rgb(255, 255, 255);
     font-family: 'Arial', 'Sans-Serif';
     text-decoration: underline;
@@ -42,7 +42,6 @@ a.navbutton:hover{
     color: rgb(0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
-    margin-left: 8px;
 }
 
 h1{
@@ -69,7 +68,7 @@ footer{
     padding-left: 15px;
     padding-right: 15px;
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     left: 5px;
 }
 
