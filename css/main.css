@@ -20,9 +20,28 @@ header{
     font-color: rgb(225, 225, 225);
     text-decoration: none;
     position: absolute;
-    top: 20px; 
-    right: 10px;
+    top: 50px; 
+    right: 40px;
     margin: 10px;
+}
+
+a.navbutton{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', 'Sans-Serif';
+}
+
+a.navbutton:hover{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
+    font-height: 30px;
 }
 
 footer{
@@ -53,26 +72,6 @@ footer{
     padding-bottom: 20%;
     padding-top: 5%;
 }
-
-a.navbutton{
-    border: 1px solid rgb(255, 255, 255);
-    padding: 5px;
-    margin-left: 8px;
-    color: rgb(255, 255, 255);
-    font-family: 'Arial', 'Sans-Serif';
-}
-
-a.navbutton:hover {
-    text-decoration: underline;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
-
-h1 {
-    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-    font-height: 30px;
-}
-
 
 a{
     color: rgb(80, 80, 80);
