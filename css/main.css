@@ -1,5 +1,5 @@
 #bodydefault {
-    width: 80%;
+    width: 100%;
 }
 
 #divnavdefault {
@@ -7,6 +7,24 @@
     background-color: rgb(0, 0, 0);
     padding-left: 15px;
 }
+
+/*added below*/
+header{
+    position: fixed;
+    top: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.container{
+    width: 88%;
+    margin: 0 auto;
+}
+
+/*added above*/
 
 #navlistdefault {
     font-color: rgb(225, 225, 225);
