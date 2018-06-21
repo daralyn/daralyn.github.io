@@ -1,27 +1,33 @@
-#bodydefault {
-    width: 100%;
-}
-
 #divnavdefault {
-    border-bottom: 3px solid rgb(161, 161, 161);
-    background-color: rgb(0, 0, 0);
-    padding-left: 15px;
+
 }
 
 /*added below*/
 header{
     position: fixed;
     top: 0;
+    width: 100%;
+    /*from divnavdefault*/
+    border-bottom: 3px solid rgb(161, 161, 161);
+    background-color: rgb(0, 0, 0);
+    padding-left: 15px;
 }
 
 footer{
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .container{
-    width: 88%;
+    width: 80%;
     margin: 0 auto;
+    /*content default below*/
+    background-color: rgb(225, 243, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20%;
+    padding-top: 5%;
 }
 
 /*added above*/
@@ -45,7 +51,7 @@ a.navbutton{
     font-family: 'Arial';
 }
 
-a:hover {
+a.navbutton:hover {
     text-decoration: underline;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -57,11 +63,13 @@ h1 {
 }
 
 #contentdefault{
-    background-color: rgb(225, 243, 255);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20%;
-    padding-top: 5%;
+
+}
+
+
+a{
+    color: rgb(80, 80, 80);
+    font-family: 'Arial', 'Sans-Serif'; 
 }
 
 p {
@@ -83,7 +91,9 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
+/* TOOK THIS OUT
 .readandcheck{
     color: rgb(80, 80, 80);
     text-decoration: underline;
 }
+*/
