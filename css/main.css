@@ -26,22 +26,20 @@ header{
 }
 
 a.navbutton{
-    border: 1px solid rgb(255, 255, 255);
     padding: 5px;
     margin-left: 8px;
     color: rgb(255, 255, 255);
     font-family: 'Arial', 'Sans-Serif';
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a.navbutton:hover{
-    text-decoration: underline;
+    text-decoration: none;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-}
-
-a.navbutton:active{
-    background-color: rgb(200, 200, 200);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 8px;
 }
 
 h1{
@@ -55,21 +53,22 @@ footer{
     border-top: 2px solid rgb(161, 161, 161);
     bottom: 0;
     width: 100%;
+    height: 15px;
 }
 
 #footertext{
     color: rgb(255, 255, 255);
     font-size: .8em;
     font-family: 'Arial', 'Sans-Serif';
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .container{
     width: 70%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     margin-top: 120px;
     background-color: rgb(225, 243, 255);
