@@ -6,20 +6,19 @@ header{
     background-color: rgb(0, 0, 0);
     padding-left: 15px;
     margin: 0;
-    height: 80px;
+    height: 100px;
 }
 
 #eportfolioheader {
     font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
     font-size: 3em;
     color: rgb(225, 225, 225);
-    padding-top: 5px;
+    padding-top: 0px;
     text-decoration: none;
 }
 
 #pnavigation {
     font-color: rgb(225, 225, 225);
-    text-decoration: none;
     position: absolute;
     top: 50px; 
     right: 40px;
@@ -32,6 +31,7 @@ a.navbutton{
     margin-left: 8px;
     color: rgb(255, 255, 255);
     font-family: 'Arial', 'Sans-Serif';
+    text-decoration: none;
 }
 
 a.navbutton:hover{
@@ -66,7 +66,7 @@ footer{
 .container{
     width: 80%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 100px;
     background-color: rgb(225, 243, 255);
     padding-left: 50px;
     padding-right: 50px;
