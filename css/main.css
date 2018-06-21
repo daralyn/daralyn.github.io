@@ -6,7 +6,7 @@ header{
     border-bottom: 3px solid rgb(161, 161, 161);
     background-color: rgb(0, 0, 0);
     margin: 0;
-    height: 120px;
+    height: 100px;
 }
 
 #eportfolioheader {
@@ -15,12 +15,15 @@ header{
     color: rgb(225, 225, 225);
     padding-top: 0px;
     text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 15px;
 }
 
 #pnavigation {
     font-color: rgb(225, 225, 225);
     position: absolute;
-    top: 50px; 
+    top: 30px; 
     right: 40px;
     margin: 10px;
 }
@@ -54,7 +57,7 @@ footer{
     bottom: 0;
     left: 0px;
     right: 0px;
-    height: 40px;
+    height: 30px;
 }
 
 #footertext{
@@ -65,13 +68,16 @@ footer{
     padding-bottom: 2px;
     padding-left: 15px;
     padding-right: 15px;
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
 }
 
 .container{
     width: 70%;
     height: auto;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 100px;
     background-color: rgb(225, 243, 255);
     padding-left: 50px;
     padding-right: 50px;
