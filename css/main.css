@@ -8,6 +8,23 @@ header{
     margin: 0;
 }
 
+#eportfolioheader {
+    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
+    font-size: 3em;
+    color: rgb(225, 225, 225);
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#pnavigation {
+    font-color: rgb(225, 225, 225);
+    text-decoration: none;
+    position: absolute;
+    top: 20px; 
+    right: 10px;
+    margin: 10px;
+}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -29,28 +46,13 @@ footer{
 .container{
     width: 80%;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: rgb(225, 243, 255);
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20%;
-    padding-top: 25%;
+    padding-top: 5%;
 }
-
-#eportfolioheader {
-    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-    font-size: 3em;
-    color: rgb(225, 225, 225);
-    padding-top: 5px;
-    text-decoration: none;
-}
-
-#pnavigation {
-    font-color: rgb(225, 225, 225);
-    text-decoration: none;
-    float: right;
-    margin: 30px;
-}
-
 
 a.navbutton{
     border: 1px solid rgb(255, 255, 255);
