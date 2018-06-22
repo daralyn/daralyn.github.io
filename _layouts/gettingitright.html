@@ -9,32 +9,24 @@
 					<header>
 					<nav>
 						<h2 id="eportfolioheader">Daralyn's E-portfolio</h2>
-	    				<p id="pnavigation">
-	        				<a class="navbutton homebutton" href="/">Home</a>
-	        				<!-- <a href="/cv">CV</a> -->
-	        				<a class="navbutton portfoliobutton" href="/portfolio">Portfolio</a>
-						<a class="navbutton aboutbutton" href="/about">About</a>
-	    				</p>
+					<div class="navbar">
+						<a href="/">Home</a>
+						<a href="/about">About</a>
+						<div class="dropdown">
+							<button class="dropbtn"> Portfolio </button>
+								<div class="dropdown-content">
+									<a href="https://daralyn.github.io/portfolio/engineering/">Engineering</a>
+									<a href="https://daralyn.github.io/portfolio/chinese/">Chinese</a>
+									<a href="https://daralyn.github.io/portfolio/photos/">Photos</a>
+									<a href="https://daralyn.github.io/portfolio/cards/">Cards</a>
+									<a href="https://daralyn.github.io/portfolio/holiday-crafts/">Holiday Crafts</a>
+								</div>
+						</div> 
+					</div>
 					</nav>
+
 					</header>
-			
-			<div class="navbar">
-				<a href="/">Home</a>
-				<a href="/about">About</a>
-				<div class="dropdown">
-					<button class="dropbtn"> Portfolio </button>
-						<div class="dropdown-content">
-							<a href="https://daralyn.github.io/portfolio/engineering/">Engineering</a>
-							<a href="https://daralyn.github.io/portfolio/chinese/">Chinese</a>
-							<a href="https://daralyn.github.io/portfolio/photos/">Photos</a>
-							<a href="https://daralyn.github.io/portfolio/cards/">Cards</a>
-							<a href="https://daralyn.github.io/portfolio/holiday-crafts/">Holiday Crafts</a>
-						</div>
-				</div> 
-			</div>
-			
-			
-			
+
 			<div class="container">
 
 					{{ content }}
