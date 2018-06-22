@@ -110,6 +110,23 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
+.homebutton{
+	position: absolute;
+	top: 30;
+	right: 430;
+}
+
+.portfoliobutton{
+	position: absolute;
+	top: 30;
+	right: 230;
+}
+
+.aboutbutton{
+	position: absolute;
+	top: 30;
+	right: 30;
+}
 
 /*dropdown stuff*/
 #dropdown{
@@ -128,7 +145,7 @@ p {
 /*  position: absolute; */
   top: 53px;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 80px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
