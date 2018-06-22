@@ -95,15 +95,16 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
+/*nav buttons
 #buttonsposition{
 	border: 3px solid rgb(255, 0, 0);
 	position: absolute;
 	top: 30px;
 	right: 10px;
 }
+*/
 
-/*nav buttons
-.homebutton{
+#homebutton{
 	position: absolute;
 	top: 30;
 	right: 430;
@@ -119,14 +120,14 @@ p {
     margin: 10px;
 }
 
-.aboutbutton{
+#aboutbutton{
 	position: absolute;
 	top: 30;
 	right: 30;
     font-color: rgb(225, 225, 225);
     margin: 10px;
 }
-*/
+
 
 /*specific to portfolio pages only*/
 .portfoliobutton{
