@@ -21,7 +21,7 @@ header{
 }
 
 #nav {
-    font-color: rgb(225, 225, 225);
+    color: rgb(225, 225, 225);
     position: absolute;
     top: 30px; 
     right: 60px;
