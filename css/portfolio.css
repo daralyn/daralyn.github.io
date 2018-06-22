@@ -143,12 +143,16 @@ p {
 }
 
 /*dropdown stuff*/
+#navbar{
+	overflow: hidden;
+}
+
 #dropdown{
     background-color: rgb(100, 100, 100);
 /*    position: absolute; */
     right: 0px;
     top: 70px;
-    width: 300px;
+    width: 150px;
   
     float: right;
     overflow: hidden;
@@ -176,7 +180,7 @@ p {
 
 /* Adds background color to dropdown links on hover */
 #dropdown-content a:hover {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(250, 0, 0);
 }
 
 /* Show the dropdown menu on hover */
