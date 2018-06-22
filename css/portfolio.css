@@ -20,23 +20,6 @@ header{
     left: 15px;
 }
 
-#pnavigation {
-    font-color: rgb(225, 225, 225);
-    position: absolute;
-    top: 30px; 
-    right: 60px;
-    margin: 10px;
-}
-
-.portfoliobutton{
-	text-decoration: none;
-	background-color: rgb(100, 100, 100);
-	color: rgb(0, 0, 0);
-	border: 1px solid rgb(255, 255, 255);
-	padding: 5px;
-	margin-left: 8px;
-}
-
 a.navbutton{
     padding: 5px;
     margin-left: 10px;
@@ -110,22 +93,42 @@ p {
     font-family: 'Arial', 'Sans-Serif';
 }
 
+/*nav buttons*/
 .homebutton{
 	position: absolute;
 	top: 30;
 	right: 430;
+    font-color: rgb(225, 225, 225);
+    margin: 10px;
 }
 
 .portfoliobutton{
 	position: absolute;
 	top: 30;
 	right: 230;
+    font-color: rgb(225, 225, 225);
+    margin: 10px;
 }
 
 .aboutbutton{
 	position: absolute;
 	top: 30;
 	right: 30;
+    font-color: rgb(225, 225, 225);
+    margin: 10px;
+}
+
+/*specific to portfolio pages only*/
+.portfoliobutton{
+	text-decoration: none;
+	background-color: rgb(100, 100, 100);
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(255, 255, 255);
+	padding: 5px;
+	margin-left: 8px;
+	position: absolute;
+	top: 30;
+	right: 230;
 }
 
 /*dropdown stuff*/
