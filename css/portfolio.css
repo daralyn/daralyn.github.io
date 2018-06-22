@@ -28,14 +28,14 @@ header{
     margin: 10px;
 }
 
-	.portfoliobutton{
-		text-decoration: none;
-    		background-color: rgb(100, 100, 100);
-    		color: rgb(0, 0, 0);
-   		border: 1px solid rgb(255, 255, 255);
-    		padding: 5px;
-    		margin-left: 8px;
-	}
+.portfoliobutton{
+	text-decoration: none;
+	background-color: rgb(100, 100, 100);
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(255, 255, 255);
+	padding: 5px;
+	margin-left: 8px;
+}
 
 a.navbutton{
     padding: 5px;
@@ -113,22 +113,19 @@ p {
 
 /*dropdown stuff*/
 #dropdown{
-    background-color: rgb(255, 251, 214);
-	position: absolute;
-	right: 0px;
-	top: 70px;
-    	width: 300px
-}
-
-/* The dropdown container */
-#dropdown {
-  float: right;
-  overflow: hidden;
+    background-color: rgb(100, 100, 100);
+/*    position: absolute; */
+    right: 0px;
+    top: 70px;
+    width: 300px;
+  
+    float: right;
+    overflow: hidden;
 }
 
 #dropdown-content {
   display: none;
-  position: absolute;
+/*  position: absolute; */
   top: 53px;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -147,7 +144,7 @@ p {
 }
 
 /* Adds background color to dropdown links on hover */
-.dropdown-content a:hover {
+#dropdown-content a:hover {
   background-color: rgba(250, 250, 250, 0.8);
 }
 
