@@ -20,7 +20,7 @@ header{
     left: 15px;
 }
 
-.menu {
+#nav {
     font-color: rgb(225, 225, 225);
     position: absolute;
     top: 30px; 
@@ -102,7 +102,53 @@ p {
 }
 
 /*dropdown css */
+#nav-wrapper{
+    width:600px;
+    margin: 10px;
+    text-align: left;
+}
 
+#nav ul{
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px;
+    position: relative;
+}
 
+#nav ul li{
+    display: inline-block;
+}
 
+#nav ul li:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+#nav ul li a,visited{
+    background-color: rgb(255, 0, 0);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    background-color: (150, 150, 150);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(100, 100, 100);
+}
+
+#nav ul ul li{
+    display: block;
+
+    color: rgb(255, 255, 255);
+}
 
