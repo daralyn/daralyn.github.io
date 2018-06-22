@@ -111,11 +111,32 @@ p {
 }
 
 
-/*side bar*/
-#portfoliosidebar{
+/*dropdown stuff*/
+#dropdown{
     background-color: rgb(255, 251, 214);
 	position: absolute;
 	right: 0px;
-	top: 90px;
-    width: 300px
+	top: 70px;
+    	width: 300px
 }
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  top: 53px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
