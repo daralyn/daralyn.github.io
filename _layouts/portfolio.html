@@ -7,30 +7,36 @@
 		</head>
 		<body id="bodydefault">
 					<header>
-				<!--	<nav> -->
+					<nav>
 						<h2 id="eportfolioheader">Daralyn's E-portfolio</h2>
-					<div class="navbar">
-	        				<div id="homebutton"> <a class="navbutton" href="/">Home</a> </div>
-	        				<!-- <a href="/cv">CV</a> -->
-						<div id="dropdown">
-	        					<a class="navbutton portfoliobutton" href="/portfolio">Portfolio</a>
-						            <div id="dropdown-content">
-							      <a href="https://daralyn.github.io/portfolio/engineering/">Engineering</a>
-							      <a href="https://daralyn.github.io/portfolio/chinese/">Chinese</a>
-							      <a href="https://daralyn.github.io/portfolio/photos/">Photos</a>
-							      <a href="https://daralyn.github.io/portfolio/cards/">Cards</a>
-							      <a href="https://daralyn.github.io/portfolio/holiday-crafts/">Holiday Crafts</a>
-							   </div>
-						</div> 
-						<div id="aboutbutton"> <a class="navbutton" href="/about">About</a> </div>
-					</div> <!--navbar-->
-				<!--	</nav> -->
+	    				
+	        			<div class="nav">
+							<div class="nav-wrapper">
+								<ul>
+									<li><a id="navbuttonhome" href="/">Home</a></li>
+									
+									<li><a id="navbuttonportfolio" href="https://daralyn.github.io/portfolio/" class="dropbtn"> Portfolio </a>
+										<ul>
+											<li><a href="https://daralyn.github.io/portfolio/engineering/">Engineering</a></li>
+											<li><a href="https://daralyn.github.io/portfolio/chinese/">Chinese</a></li>
+											<li><a href="https://daralyn.github.io/portfolio/photos/">Photos</a></li>
+											<li><a href="https://daralyn.github.io/portfolio/cards/">Cards</a></li>
+											<li><a href="https://daralyn.github.io/portfolio/holiday-crafts/">Holiday Crafts</a></li>
+										</ul> 
+									</li>
+									<li><a id="navbuttonabout" href="/about">About</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
 					</header>
 
 			<div class="container">
+
 					{{ content }}
+			
 			</div> <!-- /.container -->
-      
+			
 			<footer>
         			<p id="footertext"> If you want to get in touch or have any questions, please find me on Facebook @ Daralyn Wen.</p>
 			</footer>
