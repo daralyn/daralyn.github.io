@@ -39,8 +39,8 @@ a.navbutton:hover{
 #nav {
     color: rgb(225, 225, 225);
     position: absolute;
-    top: 1px; 
-    right: -30px;
+    top: 15px; 
+    right: -360px;
     margin: 0px;
 }
 
@@ -131,21 +131,22 @@ p {
     display: inline-block;
 }
 
-#nav ul li:hover{
-    background-color: rgb(150, 150, 150);
-}
 
 #nav ul li a,visited{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     display: block;
-    padding: 15px;
+    padding: 5px;
+    padding-left:8px;
+    padding-right: 8px;
     text-decoration: none;
 }
 
 #nav ul li a:hover{
-    background-color: (150, 150, 150);
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    background-color: (225, 225, 225);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 #nav ul li:hover ul{
