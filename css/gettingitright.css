@@ -170,15 +170,36 @@ h3{
 	padding-left: 10px;
 }
 
+/**
 .sidelist{
+	font-family: 'Arial', 'Sans-Serif';
+	list-style-type: none;
+	color: rgb(115, 115, 115);
+	text-decoration: none;
+} **/
+
+.sidelinkreg:hover{
+	font-family: 'Arial', 'Sans-Serif';
+	color: rgb(225, 243, 255);
+	text-decoration: none;
+}
+
+.sidelinkreg{
 	font-family: 'Arial', 'Sans-Serif';
 	list-style-type: none;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
 }
 
-.sidelist:hover{
+.sidelinkbig:hover{
 	font-family: 'Arial', 'Sans-Serif';
 	color: rgb(225, 243, 255);
+	text-decoration: none;
+}
+
+.sidelinkbig{
+	font-family: 'Arial', 'Sans-Serif';
+	list-style-type: none;
+	color: rgb(115, 115, 115);
 	text-decoration: none;
 }
