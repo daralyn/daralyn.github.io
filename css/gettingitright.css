@@ -74,7 +74,8 @@ h1{
 .container{
     width: 70%;
     height: auto;
-    margin: 0 auto;
+    marginleft: 175px;
+    margin-right: 175px;
     margin-top: 90px;
     background-color: rgb(225, 243, 255);
     padding-left: 50px;
@@ -159,12 +160,10 @@ p {
 .sidebar{
 	background-color: rgb(120, 200, 255);
 	position: fixed;
-	top: 90px;
-	bottom: 10px;
-	left: 0px;
-	margin: 0px;
-	border-left: 20px;
-	width: 100px;
+	top: 100px;
+	left: 10px;
+	margin: 3px;
+	width: 160px;
 }
 
 .sidelist{
