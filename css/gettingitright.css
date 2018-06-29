@@ -164,7 +164,7 @@ p {
 	left: 10px;
 	margin: 3px;
 	width: 160px;
-	border-top: 9px solid rgb(225, 243, 255);
+	border-top: 6px groove rgb(225, 243, 255);
 }
 h3{
 	padding-left: 10px;
