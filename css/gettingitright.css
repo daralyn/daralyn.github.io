@@ -171,9 +171,11 @@ p {
 	font-family: 'Arial', 'Sans-Serif';
 	list-style-type: none;
 	color: rgb(115, 115, 115);
+	text-decoration: none;
 }
 
-.sidelist li:hover{
+.sidelist:hover{
 	font-family: 'Arial', 'Sans-Serif';
 	color: rgb(225, 243, 255);
+	text-decoration: none;
 }
