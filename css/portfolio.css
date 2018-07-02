@@ -206,6 +206,6 @@ h3{
 	margin-left: 20px;
 }
 
-td{
+td.sidelinks{
 	border-top: 1px dotted rgb(198, 246, 247);
 }
