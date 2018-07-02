@@ -185,6 +185,8 @@ h3{
 	font-family: 'Arial', 'Sans-Serif';
 	color: rgb(115, 115, 115);
 	text-decoration: none;
+	border-top: 2px dashed rgb(20, 20, 20);
+	margin-left: -10px;
 }
 
 .sidelinkbig:hover{
@@ -202,5 +204,5 @@ h3{
 
 .tableofprojects{
 	width: 300px;
-
+	margin-left: 20px;
 }
