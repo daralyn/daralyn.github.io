@@ -188,12 +188,6 @@ h3{
 	margin-left: 0px;
 }
 
-.sidelinkbig:hover{
-	font-family: 'Arial', 'Sans-Serif';
-	color: rgb(225, 243, 255);
-	text-decoration: none;
-}
-
 .sidelinkbig{
 	font-family: 'Arial', 'Sans-Serif';
 	list-style-type: none;
