@@ -183,7 +183,7 @@ h3{
 
 .sidelinkreg{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 10px;
+	font-size: 12px;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
 	margin-left: 0px;
@@ -191,7 +191,7 @@ h3{
 
 .sidelinkbig{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 12px;
+	font-size: 14px;
 	list-style-type: none;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
