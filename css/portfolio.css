@@ -175,7 +175,7 @@ h3{
 	list-style-type: none;
 }
 
-.sidelinkreg:hover{
+.sidelinkreg:hover, .sidebarheadlink:hover{
 	font-family: 'Arial', 'Sans-Serif';
 	color: rgb(225, 243, 255);
 	text-decoration: none;
@@ -183,15 +183,23 @@ h3{
 
 .sidelinkreg{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 12px;
+	font-size: 14px;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
 	margin-left: 0px;
 }
+.sidebarheadlink{
+	font-family: 'Arial', 'Sans-Serif';
+	font-size: 16px;
+	list-style-type: none;
+	color: rgb(115, 115, 115);
+	text-decoration: none;
+	padding-left: 5px;
+}
 
 .sidelinkbig{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 14px;
+	font-size: 16px;
 	list-style-type: none;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
