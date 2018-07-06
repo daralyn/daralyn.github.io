@@ -166,8 +166,16 @@ p {
 	width: 160px;
 	border-top: 6px groove rgb(225, 243, 255);
 }
+
+h2{
+	padding-top: 5px;
+	padding-bottom: 8px;
+	font-family:'Bahnschrift', 'Arial', 'Sans-Serif';
+}
+
 h3{
 	padding-left: -5px;
+	font-family:'Bahnschrift', 'Arial', 'Sans-Serif';
 }
 
 
