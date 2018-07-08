@@ -233,4 +233,5 @@ td.sidelinks{
 
 .sectionodd, .sectioneven{
 	padding: 15px;
+	overflow: auto;
 }
