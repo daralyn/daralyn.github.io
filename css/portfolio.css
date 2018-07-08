@@ -232,6 +232,12 @@ td.sidelinks{
 	height: 200px;
 }
 
+.projectheadtext{
+	color: rgb(255, 255, 255);
+	font-height: 80px;
+	
+}
+
 .sectionodd{
 	background-color: rgb(255, 255, 255);
 }
