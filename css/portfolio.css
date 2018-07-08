@@ -198,7 +198,7 @@ h3{
 }
 .sidebarheadlink{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 16px;
+	font-size: 14px;
 	list-style-type: none;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
@@ -207,7 +207,7 @@ h3{
 
 .sidelinkbig{
 	font-family: 'Arial', 'Sans-Serif';
-	font-size: 16px;
+	font-size: 14px;
 	list-style-type: none;
 	color: rgb(115, 115, 115);
 	text-decoration: none;
@@ -228,14 +228,14 @@ td.sidelinks{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 10px;
-	overflow: auto;
 	height: 200px;
+	overflow: auto;
 }
 
 .projectheadtext{
 	color: rgb(255, 255, 255);
 	font-size: 50px;
-	
+	text-align: center;
 }
 
 .sectionodd{
