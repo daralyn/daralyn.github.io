@@ -29,6 +29,106 @@ title: Daralyn's Engineering Portfolio - First G-code Exercise
 				</tr>
 			</tbody>
 		</table>
-</div> <!-- sidebar-->
+</div> <!--end of sidebar-->
 
-Sorry, this page hasn't been fully built yet.
+<!--SPECIFIC TO PAGES-->
+
+<div class="projecthead" id="gcodehead">
+	<h1>First G-code Exercise</h1>
+</div> <!-- end of gcode head-->
+
+<div class="sectionodd">
+	<h2>Quick Overview</h2>
+		<p>In order to get more familiar with the machines we're using in Engineering, we learned a little bit about the code that these machines use: G-code. We were assigned to create a line, patterned four times. We changed depths and feed speeds in order to also see how those can affect the quality of a piece. To test our codes, we used an online tool (http://chilipeppr.com/tinyg) to simulate what the tool path would look like.</p>
+</div>
+
+<div class="sectioneven">
+	<h2>What we did</h2>
+		<h3>About the assignment...</h3>
+			<p> In order to get more familiar with the machines we're using in Engineering, we learned a little bit about the code that these machines use: G-code. We were assigned to create a line, patterned four times. The assignment was to write a program to cut a given path 4 times in a 2”x4”x0.25” aluminum block. The first cut should have been 0.25 inches from the edge, which meant we had to account for the radius of the tool we were using, because the path it takes is from the middle of the tool. We coded different depths and speeds in order to also see how those can affect the quality of a piece. To test our codes, we used an online tool (http://chilipeppr.com/tinyg) to simulate what the tool path would look like. Then we put it on a flash drive, and took it to the CNC mill. It was our first time to use the CNC mill to cut pieces. We set up the machine and measured tool height and size of work piece. We first ran the code on the machine above the piece, to make sure there was no mistake in the code, before using it to actually cut the aluminum. After we cut them, we rounded the edges so that we can use it for paper weights or some other interesting use we could find. (02/20/2018)</p>
+		<h3>Learning about the code...</h3>
+			<p>  In class, we learned some of the most common G-code commands, and used them to write our code. I learned that a program always starts and ends with a "%" symbol. I learned that anything in parenthesis "()" is ignored by the machine, and is just text to help us, humans, interpret the code. It's helpful to clearly see what each part of the code is doing, in case a mistake is made. <br>One important code we used was the G52 command, setting the origin of the piece you're working on, so the machines follows exactly the coordinates that you told it to go to. It's also important to say that you're using G90, or the coordinate system, which is usually the simplest way for beginners, because we're familiar with the system from math class.</p>
+		<h3>What was challenging...</h3>
+			<p>The most challenging part of this project for me was including the thickness of the bit into my calculations. We had to have the first cut .25 inches from the edge, and the code is for where the center of the bit is, so you have to account for the radius of the tool you're using.</p>
+		<h3>If I were to do it again...</h3>
+			<p> If I were to do this again, I think I would have liked to make the depths a little more easy to differentiate between. I also think it might be interesting to see how different sizes of tools and their speeds would affect the cuts.</p>
+</div>
+
+<div class="sectionodd">
+	<div style="width: 50%; float: left;">
+		<h2>Code that I wrote</h2>
+			<p>This is my G-code for the pattern I made:<p>
+				<code>
+				% <br>
+				O4001 (Daralyn's first program)<br>
+				G20 (sets units to inches)<br>
+				G90 (says your'e using coordinate system)<br>
+				G52 (sets origin)<br>
+				M06 T18 (switch tool to tool 18: 3/16” end mill)<br>
+				G43 H18 (sets tool18 offset height from coordinate system)<br>
+				G01 Z0.15 F10. (Moves z axis to 0.1 inches above 0 at 10 in/min)<br>
+				M3 S5333 (turns spindle on at 5333rpm)<br>
+				<br>
+				G0 X0.34375 Y0.25 (goes to that point – z stays constant– at fast speed)<br>
+				G1 Z-0.005 F10. (↓ to depth 0.005)<br>
+				G1 Y-0.75 F30.(|)<br>
+				G1 X0.84375 Y-1.75 (\)<br>
+				G1 X0.46875 (–)<br>
+				G1 Y-2.25 (|)<br>
+				G0 Z1. (↑)<br>
+				<br>
+				G0 X1.125 Y0.25 (pre-second cut)<br>
+				G1 Z-0.015 F10. (↓ to depth 0.015)<br>
+				G1 Y-0.75 F30. (|)<br>
+				G1 X1.625 Y-1.75 (\)<br>
+				G1 X1.25 (–)<br>
+				G1 Y-2.25 (|)<br>
+				G0 Z1. (↑)<br>
+				<br>
+				G0 X2.03125 Y0.25 (pre-third cut)<br>
+				G1 Z-0.015 F10. (↓ to depth 0.015)<br>
+				G1 Y-0.75 F60.(|)<br>
+				G1 X2.53125 Y-1.75 (\)<br>
+				G1 X2.15625 (–)<br>
+				G1 Y-2.25 (|)<br>
+				G0 Z1. (↑)<br>
+				<br>
+				G0 X2.8125 Y0.25 (pre-fourth cut)<br>
+				G1 Z-0.03 F10. (↓ to depth 0.03)<br>
+				G1 Y-0.75 F60.(|)<br>
+				G1 X3.3125 Y-1.75 (\)<br>
+				G1 X2.9375 (–)<br>
+				G1 Y-2.25 (|)<br>
+				G0 Z1. (↑)<br>
+				<br>
+				M05 (spindle stop)<br>
+				M30 (end of program)<br>
+				%
+			</code>
+	</div>
+	
+	<div style="width: 40%; float: left;">
+		<div>
+			<img src="https://daralyn.github.io/photos/engineering/gcodeproject_pic1.png" alt="Photo of code in online simulator." style="height: 300px; margin: 10px;">
+			<p>Online simulation software with my G-code.</p>
+		</div>
+		<div>
+			<img src="https://daralyn.github.io/photos/engineering/gcodeproject_pic2.jpg" alt="Here you can see the quality of each cut. The one on the left was cut at speed 30 in/min to a depth of 0.015 inches (best). The second one was cut at speed 60 in/min to a depth of 0.015 inches. The third one was cut at speed 30 in/min to a depth of 0.03 inches. The one on the right was cut at speed 60 in/min to a depth of 0.03 inches (worst). Interestingly, as the machine was cutting, you could feel the vibrations increase as the patterns were cut with different speeds and depths." style="height: 300px; margin: 10px;">
+			<p>Here you can see the quality of each cut. <br>
+			The one on the left was cut at speed 30 in/min to a depth of 0.015" (best) <br>
+			The second one was cut at speed 60 in/min to a depth of 0.015" <br>
+			The third one was cut at speed 30 in/min to a depth of 0.03"<br>
+			The one on the right was cut at speed 60 in/min to a depth of 0.03" (worst)<br>
+			Interestingly, as the machine was cutting, you could feel the vibrations increase as the patterns were cut with different speeds and depths.</p>
+		</div>
+	</div>
+	
+</div>	
+
+
+<style>
+	#gcodehead{
+		background-image: url("https://daralyn.github.io/photos/engineering/gcodeproject_head.jpg");
+	}
+	
+</style>
