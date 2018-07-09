@@ -226,16 +226,28 @@ slideshow stuffs */
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: rgb(255, 255, 255);
+	bottom: 0%;
+	padding: 10% 2%;
+	margin-top: 0%;
+	height: 100%;
+	color: rgb(255,255,255);
+	line-height: 100%;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
 	border-radius: 0 3px 3px 0;
 }
+
+.arrow{
+	padding: 10% 0%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 30%;
+	width: 50%;
+	margin: -25% 0 0 -25%;
+}
+
 /* Position the "next button" to the right */
 .next {
 	right: 0;
