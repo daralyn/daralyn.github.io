@@ -205,7 +205,7 @@ h3{
 	text-decoration: none;
 }
 
-					/*new
+							/*new
 slideshow stuffs */
 .slides {
 	display: none
@@ -249,7 +249,7 @@ slideshow stuffs */
 .text {
 	color: rgb(255, 255, 255);
 	font-size: 14px;
-	padding: 8px 5px;
+	padding: 5px 0px;
 	background-color: rgba(50,50,50,0.8);
 	position: absolute;
 	bottom: 8px;
