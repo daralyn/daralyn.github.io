@@ -207,6 +207,9 @@ h3{
 
 					/*new
 slideshow stuffs */
+.slides {
+	display: none
+}
 
 .slideshowphoto {
 	vertical-align: middle;
