@@ -227,11 +227,9 @@ slideshow stuffs */
 	cursor: pointer;
 	position: absolute;
 	bottom: 0%;
-	padding: 5% 2%;
-	margin-top: 0%;
+	padding: 2%;
 	height: 100%;
-	color: rgb(255,255,255);
-	line-height: 100%;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -239,12 +237,8 @@ slideshow stuffs */
 }
 
 .arrow{
-	padding: 10% 0%;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	height: 30%;
-	width: 50%;
 	margin: -25% 0 0 -25%;
 }
 
