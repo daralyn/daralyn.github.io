@@ -102,6 +102,7 @@ a{
 
 p {
 	font-family: 'Arial', 'Sans-Serif';
+	padding-top: -10px;
 }
 
 /*specific to portfolio pages only*/
