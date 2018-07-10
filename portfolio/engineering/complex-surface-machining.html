@@ -31,4 +31,129 @@ title: Daralyn's Engineering Portfolio - Complex Surface Machining
 		</table>
 </div> <!-- sidebar-->
 
-Sorry, this page hasn't been fully built yet.
+<div class="projecthead" id="complexsurfacehead">
+	<h1 class="projectheadtext"> Complex Surface Machining</h1>
+	<p style="text-align: center;">March 2018</p>
+</div> <!-- end of head-->
+
+<div class="sectionodd">
+	<h2> Quick Overview</h2>
+	<p>This project was to use a 3/16” ball end mill on the CNC router and create a complex surface. I began by starting my piece in Fusion. Afterwards, used another CAM software to generate the code.</p>
+</div>
+
+<div class="sectioneven">
+	<div style="float: left; width: 65%;">
+		<h2>What I learned</h2>
+		<p> The purpose of this project was not only to design a complex surface, but also to learn about step over distances. We started off the assignment by reading an article from this website (https://www.cnccookbook.com/cnc-stepover/), which discussed step over definition, scalloping, the differences between them, as well as showing helpful graphs about speed versus quality, scallop versus tool diameter, information about how to calculate many of these numbers, and other tips.
+			<br> We cut our project on plywood, using a 3/16” ball end mill. I learned that with a certain offset, there are two different types of paths the tool can take: contour offset toolpath, and zig-zag (raster) toolpath. I also read that the step over should be between 1/3 and 1/10 of the tool diameter, so we chose to use a 0.05” step over. My project’s parallel path time with a 0.05” step over was estimated to take about 6.4 minutes, compared to a 0.11” step over, the estimated time being 2.9 minutes. This happens, basically because a larger step over means less material to cut/go over. For or our project, we used the zigzag toolpath. What I found most interesting, however, was about scalloping. Scalloping is basically the effect of a ball mill because you can’t get a flat surface with it, it turns out with a lot of “valleys” so to speak. The bigger the step over, the bigger the scalloping because it makes less “valleys”, taking away less material (see top right image). The scalloping was pretty obvious in Mr. Izuta’s surfaces cut with two different step overs. It was an obvious difference, and it reinforced what the photos on the website showed. It's a lot cooler to see it and feel it, rather than just looking at photos.
+			<br> Though the project came out looking quite “fibrous”. We could have gotten a much smoother finish if we used the tool to “sand” the surface, but that also wears out the tool much more quickly. So, we touched it up afterwards with an X-Acto knife and sand paper.
+		</p>
+	</div>
+	<div style="float: left; width: 30%; padding-left: 10px;">
+		<img src="https://daralyn.github.io/photos/engineering/complexsurface_web1.png" alt="Diagram showing stepovers with different diameters." style="height: 200px; margin: 10px;">
+		<img src="https://daralyn.github.io/photos/engineering/complexsurface_web2.png" alt="Graph of scallop height vs stepover." style="height: 200px; margin: 10px;">
+		<p> Above photos from <a href="https://www.cnccookbook.com/cnc-stepover/"> www.cnccookbook.com/cnc-stepover/ </a></p>
+		<br>
+	</div>
+</div>
+
+<div class="sectionodd">
+	<h2> Photos </h2>
+	<div>
+		<img src="https://daralyn.github.io/photos/engineering/complexsurface_pic1.jpg" alt="CNC Router cutting plywood piece." style="height: 200px; margin: 10px;">
+		<p>CNC Router cutting plywood piece.</p>
+	</div>
+	<div>
+		<img src="https://daralyn.github.io/photos/engineering/complexsurface_pic2.jpg" alt="Rough finish of complex surface cut from plywood." style="height: 200px; margin: 10px;">
+		<p>Rough finish of complex surface cut from plywood.</p>
+	</div>
+	<div>
+		<img src="https://daralyn.github.io/photos/engineering/complexsurface_pic3.jpg" alt="Sanded finish of complex surface cut from plywood." style="height: 200px; margin: 10px;">
+		<p>Sanded finish of complex surface cut from plywood.</p>
+	</div>
+</div>
+
+<div class="sectioneven">
+	<div style="float: left; width: 50%;">
+		<h2>Challenges...</h2>
+		<p>It was challenging to create the complex surface, especially for the pattern I wanted to do. I had to play around a lot with the spline tools, and other things like that, and patterning and mirroring to get it to look the way I imagined in my head.</p>
+		<h2>If I were to do it again...</h2>
+		<p>If I did this again, would have made the depths of the "valleys" a lot deeper so the texture would be more obvious. Because we did this on plywood, and there are different layers, it's really cool to see the change in layers. My piece only had the top two layers, and so it's not so obvious. I think other patterns would also be cool to use, so maybe I would make two different surfaces.</p>
+	</div>
+	
+	<div style="float: left; width: 50%; margin: 5px;">
+		<div class="slideshow-container">
+
+			<div class="slides">
+				<div class="numbertext">1 / 4</div>
+				<img class="slideshowphoto" src="https://daralyn.github.io/photos/engineering/complexsurface_pic4.png">
+				<div class="text">CAD made with Fusion 360.</div>
+			</div>
+
+			<div class="slides">
+				<div class="numbertext">2 / 4</div>
+				<img class="slideshowphoto" src="https://daralyn.github.io/photos/engineering/complexsurface_pic5.jpg">
+				<div class="text">Plywood.</div>
+			</div>
+
+			<div class="slides">
+				<div class="numbertext">3 / 4</div>
+				<img class="slideshowphoto" src="https://daralyn.github.io/photos/engineering/complexsurface_pic6.jpg">
+				<div class="text">Complex surface cut on foam.</div>
+			</div>
+			
+			<div class="slides">
+				<div class="numbertext">4 / 4</div>
+				<img class="slideshowphoto" src="https://daralyn.github.io/photos/engineering/complexsurface_pic7.jpg">
+				<div class="text">Sideview to see pattern depths.</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)"><div class="arrow">❮</div></a>
+			<a class="next" onclick="plusSlides(1)"><div class="arrow">❯</div></a>
+
+		</div>
+		<br>
+
+		<div class="slideshowdots">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("slides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+	</div>
+
+</div>
+
+
+<style>
+	#complexsurfacehead{
+		background-image: url("https://daralyn.github.io/photos/engineering/complexsurface_head.jpg");
+	}
+	
+</style>
