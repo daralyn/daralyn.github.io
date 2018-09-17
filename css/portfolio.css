@@ -98,6 +98,10 @@ p {
 	margin-top: 0px;
 }
 
+ul{
+	color: rgb(0, 0, 0);
+	font-family: 'Arial', 'Sans-Serif'; 
+
 /*specific to portfolio pages only*/
 #navbuttonportfolio{
 	text-decoration: none;
