@@ -1,85 +1,86 @@
 header{
-	position: fixed;
-	top: 0;
-	left: 0px;
-	right: 0px;
-	border-bottom: 3px solid rgb(161, 161, 161);
-	background-color: rgb(0, 0, 0);
-	margin: 0;
-	height: 90px;
-	z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    border-bottom: 3px solid rgb(161, 161, 161);
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    height: 90px;
 }
 
 #eportfolioheader {
-	font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-	font-size: 3em;
-	color: rgb(225, 225, 225);
-	padding-top: 0px;
-	text-decoration: none;
-	position: absolute;
-	top: -20px;
-	left: 15px;
-	z-index: 11;
+    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
+    font-size: 3em;
+    color: rgb(225, 225, 225);
+    padding-top: 0px;
+    text-decoration: none;
+    position: absolute;
+    top: -20px;
+    left: 15px;
 }
 
 a#navbuttonhome, a#navbuttonabout, a#navbuttonportfolio{
-	padding: 5px;
-	color: rgb(255, 255, 255);
-	font-family: 'Arial', 'Sans-Serif';
-	text-decoration: none;
-	top:50px;
-	z-index: 11;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', 'Sans-Serif';
+    text-decoration: none;
+    top:50px;
 }
 
 a#navbuttonhome:hover, a#navbuttonabout:hover, a#navbuttonportfolio:hover{
-	text-decoration: none;
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
-	border: 1px solid rgb(255, 255, 255);
-	padding: 5px;
-	z-index: 11;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
 }
 
 .nav {
-	color: rgb(225, 225, 225);
-	position: absolute;
-	top: 15px; 
-	right: -400px;
-	margin: 0px;
-	z-index: 11;
+    color: rgb(225, 225, 225);
+    position: absolute;
+    top: 15px; 
+    right: -400px;
+    margin: 0px;
 }
 
 footer{
-	position: fixed;
-	background-color: rgb(0, 0, 0);
-	border-top: 2px solid rgb(161, 161, 161);
-	bottom: 0;
-	left: 0px;
-	right: 0px;
-	height: 30px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid rgb(161, 161, 161);
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    height: 30px;
 }
 
 #footertext{
-	color: rgb(255, 255, 255);
-	font-size: .8em;
-	font-family: 'Arial', 'Sans-Serif';
-	padding: 2px 15px 2px 15px;
-	position: absolute;
-	bottom: -5px;
-	left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: .8em;
+    font-family: 'Arial', 'Sans-Serif';
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
 }
 
 h1{
-	font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
-	padding-top: 20px;
+    font-family: 'AR BONNIE', 'Arial', 'Sans-Serif';
 }
 
 .container{
-	width: 70%;
-	height: auto;
-	margin: 90px 175px 0px 175px;
-	background-color: rgb(225, 243, 255);
-	padding: 0px 50px 20% 50px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: rgb(225, 243, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20%;
+    padding-top: 10px;
 }
 
 #bodydefault:{
@@ -113,51 +114,51 @@ ul{
 
 /*dropdown stuff*/
 .nav-wrapper{
-	width:600px;
-	margin: 10px;
-	text-align: left;
+    width:600px;
+    margin: 10px;
+    text-align: left;
 }
 
 .nav ul {
-	list-style-type: none;
-	padding:0px; 
-	margin: 0px;
-	position: relative;
+    list-style-type: none;
+    padding:0px; 
+    margin: 0px;
+    position: relative;
 }
 
 .nav ul li{
-	display: inline-block;
+    display: inline-block;
 }
 
 .nav ul li a,visited{
-	background-color: rgb(33, 33, 33);
-	color: rgb(255, 255, 255);
-	display: block;
-	padding: 5px;
-	padding-left:8px;
-	padding-right: 8px;
-	text-decoration: none;
-	border: none;
+    background-color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px;
+    padding-left:8px;
+    padding-right: 8px;
+    text-decoration: none;
+    border: none;
 }
 
 .nav ul li a:hover{
-	background-color: rgb(255, 255, 255);
-	color: rgb(3, 3, 3);
-	text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    text-decoration: underline;
 }
 
 .nav ul li:hover ul{
-	display: block;
+    display: block;
 }
 
 .nav ul ul{
-	display: none;
-	position: absolute;
-	background-color: rgb(100, 100, 100);
+    display: none;
+    position: absolute;
+    background-color: rgb(100, 100, 100);
 }
 
 .nav ul ul li{
-	display: block;
+    display: block;
 }
 
 .sidebar{
