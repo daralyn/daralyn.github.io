@@ -84,24 +84,23 @@ h1{
 }
 
 #bodydefault:{
-	margin: 0;
+    margin: 0;
 }
 
 a{
-	color: rgb(80, 80, 80);
-	font-family: 'Arial', 'Sans-Serif'; 
+    color: rgb(80, 80, 80);
+    font-family: 'Arial', 'Sans-Serif'; 
 }
-
-
 
 p {
-	font-family: 'Arial', 'Sans-Serif';
-	margin-top: 0px;
+    font-family: 'Arial', 'Sans-Serif';
 }
+
 
 ul{
 	color: rgb(0, 0, 0);
 	font-family: 'Arial', 'Sans-Serif'; 
+}
 
 /*specific to portfolio pages only*/
 #navbuttonportfolio{
